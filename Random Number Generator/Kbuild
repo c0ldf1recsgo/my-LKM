@@ -1,0 +1,2 @@
+EXTRA_CFLAG = -Wall
+obj-m += number.o
