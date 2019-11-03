@@ -1,16 +1,16 @@
 #include <asm/unistd.h>
 #include <asm/cacheflush.h>
+#include <asm/pgtable_types.h>
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/kernel.h>
 #include <linux/syscalls.h>
-#include <asm/pgtable_types.h>
 #include <linux/highmem.h>
 #include <linux/fs.h>
 #include <linux/sched.h>
 #include <linux/moduleparam.h>
 #include <linux/unistd.h>
-#include <asm/cacheflush.h>
+
 MODULE_LICENSE("GPL");
 /*MY sys_call_table address*/
 //ffffffff82000260
