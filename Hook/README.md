@@ -21,7 +21,7 @@ Hai hàm được gọi khi chạy lệnh insmod và rmmod
 Hướng dẫn sử dụng:
 1. Tìm địa chỉ Syscall Table:
 ``` cat /boot/System.map-XXX | grep sys_call_table ```
-<br /> XXX là phiên bản kernel đang máy đang sử dụng
+<br /> XXX là phiên bản kernel máy đang sử dụng
 <br /> Ví dụ 
 ``` cat /boot/System.map-5.3.7-050307-generic | grep sys_call_table ```
 2. Copy địa chỉ syscall table nhậm được vào file hook.c tại dòng 56
