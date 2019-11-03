@@ -2,10 +2,10 @@ Chương trình hook một System Call
 * Ghi chú:
     - Tiến trình bị kill khi thực hiện cài module
 
-### File duy nhất hook.c
-### Các hàm có trong file 
-## asmlinkage long hook_open(const char* filename, int flags, umode_t mode)
-## asmlinkage long hook_write(unsigned int fd, const char* buf, size_t len)
+# File duy nhất hook.c
+# Các hàm có trong file:
+### asmlinkage long hook_open(const char* filename, int flags, umode_t mode)
+### asmlinkage long hook_write(unsigned int fd, const char* buf, size_t len)
 Dùng để hook
 
 ## int make_rw(unsigned long address)
