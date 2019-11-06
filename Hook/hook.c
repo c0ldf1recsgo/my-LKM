@@ -15,7 +15,7 @@
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("790_792");
-MODULE_VERSION("1.0");
+MODULE_VERSION("1.0.1");
 /*MY sys_call_table address*/
 //ffffffff82000260
 void **system_call_table_addr;
